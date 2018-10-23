@@ -26,6 +26,9 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `login`
 --
 
+CREATE DATABASE IF NOT EXISTS `academ` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `academ`;
+
 CREATE TABLE `login` (
   `id` int(11) NOT NULL,
   `user` varchar(250) NOT NULL,
